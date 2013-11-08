@@ -285,7 +285,7 @@
 - (id)initWithReaderDocument:(ReaderDocument *)object
 {
 	id reader = nil; // ReaderViewController object
-
+// IC1
 	if ((object != nil) && ([object isKindOfClass:[ReaderDocument class]]))
 	{
 		if ((self = [super initWithNibName:nil bundle:nil])) // Designated initializer
